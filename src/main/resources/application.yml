@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+zuul:
+  routes:
+    company:
+      url : http://localhost:8081/company
+
+ribbon:
+  eureka:
+    enabled : false
