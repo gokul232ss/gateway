@@ -5,6 +5,10 @@ zuul:
   routes:
     company:
       url : http://localhost:8081/company
+    stock:
+      url: http://localhost:8082/stock
+    user:
+      url: http://localhost:8083/user
 
 ribbon:
   eureka:
