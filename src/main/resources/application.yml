@@ -4,11 +4,14 @@ server:
 zuul:
   routes:
     company:
-      url : http://localhost:8081/company
+#      url : http://localhost:8081/company
+      url : http://3.238.132.59:8081/company
     stock:
+#      url: http://localhost:8082/stock
       url: http://localhost:8082/stock
     user:
-      url: http://localhost:8083/user
+#      url: http://localhost:8083/user
+      url: http://3.238.111.150:8083/user
 
 ribbon:
   eureka:
