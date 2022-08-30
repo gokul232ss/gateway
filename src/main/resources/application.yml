@@ -8,7 +8,7 @@ zuul:
       url : http://3.214.216.5:8081/company
     stock:
 #      url: http://localhost:8082/stock
-      url: http://localhost:8082/stock
+      url: http://34.239.177.147:8082/stock
     user:
 #      url: http://localhost:8083/user
       url: http://3.238.111.150:8083/user
